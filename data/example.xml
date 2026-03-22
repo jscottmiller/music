@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Music interests database - ad hoc XML format
+
+  Structure is intentionally loose. Add whatever attributes
+  and elements make sense for what you're tracking.
+-->
+<music>
+  <!-- Example: tracking an artist -->
+  <artist name="Depeche Mode">
+    <note>Got into them via Violator</note>
+    <album title="Violator" year="1990" rating="10"/>
+    <album title="Songs of Faith and Devotion" year="1993"/>
+  </artist>
+
+  <!-- Example: tracking a genre exploration -->
+  <genre name="shoegaze">
+    <discovered>2024</discovered>
+    <artists>
+      <artist name="My Bloody Valentine"/>
+      <artist name="Slowdive"/>
+    </artists>
+  </genre>
+
+  <!-- Example: tracking a specific album -->
+  <album artist="Nine Inch Nails" title="The Downward Spiral" year="1994">
+    <thoughts>Industrial masterpiece, still holds up</thoughts>
+    <favorite-tracks>
+      <track>Closer</track>
+      <track>Hurt</track>
+    </favorite-tracks>
+  </album>
+
+  <!-- Example: just a random note -->
+  <note date="2024-03-15">
+    Need to explore more krautrock
+  </note>
+</music>

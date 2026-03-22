@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Vinyl collection
+
+  Physical records with pressing info, condition, etc.
+  Discogs-style metadata where useful.
+-->
+<collection type="vinyl">
+  <record artist="Artist Name" title="Album Title">
+    <year>1985</year>
+    <pressing>
+      <label>Some Records</label>
+      <country>US</country>
+      <catalog>SR-1234</catalog>
+      <variant>Original pressing</variant>
+    </pressing>
+    <condition>
+      <media>VG+</media>
+      <sleeve>VG</sleeve>
+    </condition>
+    <acquired>
+      <date>2023-06-10</date>
+      <source>Local shop</source>
+      <price currency="USD">25.00</price>
+    </acquired>
+    <notes>Slight warp on side B, plays fine</notes>
+  </record>
+
+  <!-- Simpler entry if you don't care about all the details -->
+  <record artist="Another Artist" title="Another Album" year="1992">
+    <condition media="NM" sleeve="VG+"/>
+    <acquired date="2024-01-05" source="Discogs"/>
+  </record>
+</collection>
